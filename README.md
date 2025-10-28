@@ -26,8 +26,9 @@ bash <(curl -s https://raw.githubusercontent.com/HarishChandran3304/godam-setup-
 ```
 This will fetch, build and install all apps to `<site-name>`
 
-5) Stop and start again to complete setup
+5) Exit out of shell, stop and start again to complete setup
 ```bash
+exit
 fm stop <site-name>
 fm start <site-name>
 ```
